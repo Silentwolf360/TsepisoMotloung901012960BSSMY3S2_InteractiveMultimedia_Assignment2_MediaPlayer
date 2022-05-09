@@ -1,0 +1,43 @@
+.root{
+    -fx-base: #444444;
+    -fx-accent: #e7eff7 ;
+    -fx-default-button: #3f3f3f;
+    -fx-background-radius: 2px;
+
+}
+
+#stop_btn{
+    -fx-background-image: url("eject.png");
+     -fx-background-repeat: no-repeat;
+     -fx-background-position: center center;
+}
+#fast_backward_btn{
+    -fx-background-image: url("backward.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+#play_btn{
+    -fx-background-image: url("play-button-arrowhead.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+#pause_btn{
+    -fx-background-image: url("pause.png");
+     -fx-background-repeat: no-repeat;
+     -fx-background-position: center center;
+}
+#fast_forward_btn{
+    -fx-background-image: url("fast-forward.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+#mute_btn{
+    -fx-background-image: url("volume-up-interface-symbol.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+#unmute_btn{
+    -fx-background-image: url("mute.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center
+}
